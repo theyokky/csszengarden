@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+$firstColor:#CCFFBD;
+$secondColor:#7ECA9C;
+$thirdColor:#40394A;
+$fourColor:#1C1427;
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    background-color: $thirdColor;
+}
+
+body{
+    color:$firstColor;
+    h3{
+        text-align: center;
+        color:$secondColor;
+        border: 1px solid white;
+        padding:5px;
+    }
+}
+
+a{
+    color:white;
+}
+
+.intro {
+    header{
+        text-align: center;
+        color:$firstColor;
+        h1{
+           color:$secondColor;
+           font-size: 40px;
+        }
+    }    
+}
